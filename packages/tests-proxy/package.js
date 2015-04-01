@@ -15,4 +15,6 @@ Package.onUse(function (api) {
 	api.add_files("tests/jasmine/server/integration/sample/spec/SpecMatchers.js",["server"]);
 	api.add_files("tests/jasmine/server/integration/sample/src/Player.js",["server"]);
 	api.add_files("tests/jasmine/server/integration/sample/src/Song.js",["server"]);
+	api.add_files("tests/mocha/client/sampleClientTest.js",["client"]);
+	api.add_files("tests/mocha/server/sampleServerTest.js",["server"]);
 });
